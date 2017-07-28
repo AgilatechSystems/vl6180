@@ -1,6 +1,6 @@
 {
   "name": "@agilatech/vl6180",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Driver for the VL6180 Sensor",
   "main": "./build/Release/vl6180",
   "gypfile": true,
