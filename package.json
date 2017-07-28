@@ -1,0 +1,25 @@
+{
+  "name": "@agilatech/vl6180",
+  "version": "0.6.0",
+  "description": "Driver for the VL6180 Sensor",
+  "main": "./build/Release/vl6180",
+  "gypfile": true,
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Agilatech/vl6180.git"
+  },
+  "keywords": [
+    "Sensor",
+    "proximity",
+    "distance",
+    "ambient light"
+    "lux",
+    "VL6180",
+    "VL6180X"
+  ],
+  "author": "Scott Erholm <scott@agilatech.com>",
+  "license": "MIT"
+}
