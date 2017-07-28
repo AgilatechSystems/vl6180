@@ -15,7 +15,7 @@
     "Sensor",
     "proximity",
     "distance",
-    "ambient light"
+    "ambient light",
     "lux",
     "VL6180",
     "VL6180X"

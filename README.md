@@ -3,7 +3,7 @@
 #####This addon should work on any Linux platform, and has been thoroughly tested on BBB
 
 ###Install
-Notably, this module is not dependant on any other modules or libraries--it is standalone.
+Notably, this module is not dependant on any other modules except node-gyp for compilation.
 
 ```
 npm install @agilatech/vl6180
@@ -53,7 +53,7 @@ vl6180.valueAtIndex(0, function(err, val) {
 ```
 
 ###Operation Notes
-The VL6180 is a "Time of Flight" distance/proximity sensor.  It measures the time the IR emitted light takes to travers the distance.  This unit measures from 0-100mm.  Note that beyond 100mm, the value returned  The sensor also includes a lux light sensor.
+The VL6180 is a "Time of Flight" distance/proximity sensor.  It measures the time the IR emitted light takes to traverse the distance.  This unit measures from 0-100mm.  Note that beyond 100mm, the value returned is 255. The sensor also includes a lux light sensor.
 
 In addition to the device info, this module returns name, type, and value at two indicies, 0 and 1.  Index 0 is for range, while index 1 is for lux.  Typical usage might look like this:
 
